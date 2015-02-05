@@ -1,0 +1,9 @@
+
+What happens when you initialize a repository?
+Why do you need to do it?
+
+The git initialization is what connects your repository to the github and to the functionality of using git as version control.
+
+How is the staging area different from the working directory and the repository?  What value do you think it offers?
+
+The staging area is the space where the files reside as a group so they can all be committed at the same time. Kind of a place for them to be orgainzed. The repository is the collection of all your work on a project. The working directory is the structure for the files.

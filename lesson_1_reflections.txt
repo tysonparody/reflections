@@ -1,0 +1,60 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Well it obviously pointed to the difference between the two files. I saw the original and then compared it to the new file which had slightly changed and was not working properly.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+You are able to see perhaps where a program stopped working.  Able to to go back to code that worked better before you made some critical change.
+
+What do you think are the pros and cons of manually chosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros -- 
+
+You have the control and the commits correspond to meaning for you when looking back at history.
+
+Cons --
+
+If you fuck up and forget to commit and something goes haywire you stand to lose quit a bit of work.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google docs, treat each file separately?
+
+Because all those files are part of the repository and should be included.  They're all connected.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log gives you all the commits in chronological order while git diff lets you compare two commits for additions and subtractions of lines of code from the original to the most recent one.
+
+/*GIT commands*/
+
+git log -- shows you commits log of a program
+git checkout -- lets you go back in time to a previous commit
+git diff -- compares two commits green means added, red means subtracted
+
+/*Shell commands*/
+
+mv -- moves a file or rather rename a file ex. "mv .bash_profile bash profile" changes a hidden file into one that can be edited and changed
+
+pwd -- "present working directory"
+
+cd -- change directory ex. "cd Documents"
+
+ls -- list files and folders in a directory
+
+
+
+How might using version control make you more confident to make changes that could break something?
+
+you know that it can always be reverted by going back to the original commit using the command checkout.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+hmm, I want to check out some old projects of mine and see what the changes were?  or rather I want to create a new project and use Git 
+
+
+
+
+
+
+
