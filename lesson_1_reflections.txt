@@ -9,13 +9,13 @@ You are able to see perhaps where a program stopped working.  Able to to go back
 
 What do you think are the pros and cons of manually chosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
 
-Pros -- 
+Pros --
 
 You have the control and the commits correspond to meaning for you when looking back at history.
 
 Cons --
 
-If you fuck up and forget to commit and something goes haywire you stand to lose quit a bit of work.
+If you mess up and forget to commit and something goes haywire you stand to lose quit a bit of work.
 
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google docs, treat each file separately?
 
@@ -42,6 +42,12 @@ cd -- change directory ex. "cd Documents"
 ls -- list files and folders in a directory
 
 
+This allowed sublime to opend with a git commit
+
+$ git config --global core.editor "/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -n -w"
+
+
+
 
 How might using version control make you more confident to make changes that could break something?
 
@@ -50,7 +56,7 @@ you know that it can always be reverted by going back to the original commit usi
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-hmm, I want to check out some old projects of mine and see what the changes were?  or rather I want to create a new project and use Git 
+hmm, I want to check out some old projects of mine and see what the changes were?  or rather I want to create a new project and use Git
 
 
 
