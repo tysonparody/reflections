@@ -5,3 +5,11 @@ If you were working on another computer or if others were working on a project w
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your rmeote repostitory?
 
 you may not want all the changes updated to your local repo. Too many pulls would be excessive.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of the other?
+
+Fork -- clones only from github then adds it to local directory
+
+Clone -- copies files on github or on local
+
+Branch -- an alternate line of development for a project
