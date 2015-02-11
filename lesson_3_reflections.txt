@@ -17,3 +17,8 @@ Branch -- an alternate line of development for a project
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 Ensures that you can trace back to a version you remember if many changes are made.
+
+How woould you collaborate without using Git or GitHub? what would be easier, and what would be harder?
+
+Without git it would have to be messaging or email which would be a total mess github is the best choice.
+
