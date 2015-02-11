@@ -13,3 +13,7 @@ Fork -- clones only from github then adds it to local directory
 Clone -- copies files on github or on local
 
 Branch -- an alternate line of development for a project
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Ensures that you can trace back to a version you remember if many changes are made.
